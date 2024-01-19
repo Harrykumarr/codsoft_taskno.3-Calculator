@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #555555 , #000000);
+}
+
+.container{
+    border: 1px solid rgba(251, 250, 250, 0.721);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;  
+}
+
+input{
+    width:320px;
+    border: none;
+    text-align: right;
+    background: transparent;
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color:white;
+}
+
+input::placeholder{
+    color: #ffff;
+}
+button{
+    font-weight: 500;
+    font-size: large;
+    width : 60px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    color:white;
+    background-color: transparent;
+}
+
+.eqlBt{
+    background: orange;
+}
+
+.operator{
+    color:aqua;
+    background-color: #000000;
+}
+
